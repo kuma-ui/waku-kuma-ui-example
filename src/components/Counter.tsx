@@ -1,8 +1,6 @@
 "use client";
 
 import { useState } from "react";
-// When importing in Client Component, an error occurs.
-// import { Text } from "@kuma-ui/core"
 
 export const Counter = () => {
   const [count, setCount] = useState(0);
