@@ -1,0 +1,25 @@
+{
+  "name": "waku-example",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "waku dev --with-ssr",
+    "build": "waku build",
+    "start": "waku start --with-ssr"
+  },
+  "dependencies": {
+    "@kuma-ui/core": "https://pkg.csb.dev/poteboy/kuma-ui/commit/0ae41994/@kuma-ui/core",
+    "@kuma-ui/vite": "https://pkg.csb.dev/poteboy/kuma-ui/commit/0ae41994/@kuma-ui/vite",
+    "express": "^4.18.2",
+    "react": "18.3.0-canary-7118f5dd7-20230705",
+    "react-dom": "18.3.0-canary-7118f5dd7-20230705",
+    "react-server-dom-webpack": "18.3.0-canary-7118f5dd7-20230705",
+    "waku": "https://pkg.csb.dev/dai-shi/waku/commit/bc7839d8/waku"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.8",
+    "@types/react-dom": "^18.2.4",
+    "typescript": "^5.1.3"
+  }
+}
