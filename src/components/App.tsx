@@ -8,7 +8,7 @@ const App = ({ name = "Anonymous" }) => {
       {/* When using static props, no error occurs, but the style does not get applied */}
       <Heading color={"red"}>Hello {name}!!</Heading>
       {/* Dynamic props */}
-      {/* When using static props, an error occurs. */}
+      {/* When using dynamic props, an error occurs. */}
       {/* <Heading color={(() => "red")()}>Hello {name}!!</Heading> */}
       <Heading as={"h3"}>This is a server component.</Heading>
       <Counter />
