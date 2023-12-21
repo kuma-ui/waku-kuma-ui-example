@@ -1,7 +1,7 @@
-import { Counter } from "./Counter.js";
+import { Counter } from './Counter.js';
 import { Box, Heading } from "@kuma-ui/core";
 
-const App = ({ name = "Anonymous" }) => {
+const App = ({ name }: { name: string }) => {
   return (
     <Box border={"3px red dashed"} m={"1em"} p={"1em"}>
       {/* Static props */}
