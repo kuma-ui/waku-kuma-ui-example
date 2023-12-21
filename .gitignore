@@ -1,0 +1,12 @@
+/node_modules
+/test
+src/**/**.js
+yarn-error.log
+.turbo
+dist/
+.inspect
+coverage/
+node_modules/
+.vscode
+.env
+.idea/
